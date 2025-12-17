@@ -1,0 +1,7 @@
+import geometry
+radius = float(input("Enter radius of circle:"))
+length = float(input("Enter length of rectangle:"))
+breath = float(input("Enter breath of rectangle:"))
+
+print("Area of circle:",geometry.area_of_circle(radius))
+print("Area of rectangle:",geometry.area_of_rectangle(length,breath))
